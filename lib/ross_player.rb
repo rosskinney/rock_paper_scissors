@@ -5,8 +5,8 @@ class RossPlayer
     @ties = 0
   end
   #Greetings Professor Falken, show we play a game?
-  #strange game,
-  #the only winning move is not to play...
+  #a strange game,
+  #the only winning move is not to play, how about a nice game of chess?
   def play
     @play_array = ["rock", "paper", "scissors"]
     @play_array.sample
